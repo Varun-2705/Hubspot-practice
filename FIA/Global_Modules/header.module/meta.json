@@ -1,0 +1,11 @@
+{
+  "global" : false,
+  "host_template_types" : [ "PAGE" ],
+  "module_id" : 114809334568,
+  "css_assets" : [ {
+    "autoload" : true,
+    "path" : "../../Coded_Files/style.css",
+    "name" : "style.css"
+  } ],
+  "is_available_for_new_content" : true
+}

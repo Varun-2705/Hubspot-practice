@@ -1,0 +1,76 @@
+[ {
+  "id" : "d43ff179-cde1-53ba-ea83-d1250e4b28c1",
+  "name" : "style",
+  "display_width" : null,
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group",
+  "default" : { }
+}, {
+  "id" : "27552a35-a0f9-19b0-0519-11d169df8a96",
+  "name" : "logo_field",
+  "display_width" : null,
+  "label" : "Logo",
+  "required" : false,
+  "locked" : false,
+  "show_loading" : false,
+  "type" : "logo",
+  "default" : {
+    "override_inherited_src" : true,
+    "suppress_company_name" : true,
+    "src" : "https://cdn2.hubspot.net/hubfs/39706227/logo-2.png",
+    "alt" : "logo",
+    "loading" : "disabled",
+    "width" : 413,
+    "height" : 81
+  }
+}, {
+  "id" : "e6637af3-fbbb-9119-ce84-9dcabf282d97",
+  "name" : "nav_li",
+  "display_width" : null,
+  "label" : "Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "ENVIRONMENTAL REPORT 2022"
+}, {
+  "id" : "74ba2830-98c6-415b-411b-ceb1e8de0d81",
+  "name" : "nav_li_2",
+  "display_width" : null,
+  "label" : "Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "CONTENTS"
+}, {
+  "id" : "664d84d6-edc1-7ea3-53fa-b91e8aca3854",
+  "name" : "nav_li_3",
+  "display_width" : null,
+  "label" : "Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "ANNEX"
+}, {
+  "id" : "fa2b7bb3-9609-494c-4e6f-ceaa80b40bc0",
+  "name" : "header_menu",
+  "display_width" : null,
+  "label" : "Header_Menu",
+  "required" : false,
+  "locked" : false,
+  "type" : "menu",
+  "default" : 114798500247
+} ]

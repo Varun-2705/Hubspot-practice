@@ -1,0 +1,14 @@
+defaultPortal: Varun-hubspot
+portals:
+  - name: Varun-hubspot
+    portalId: 39706227
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          COzf3PSAMRIOAAUAQAAAAGwAQAJYAgEY87z3EiDSrboYKO7pDDIU1aj178bzNe5RDhyLJXivfjlP_WE6MAAABEEAAAAAAAAAAAAAAAAAgAAAAAAABAAAAAAAAAAAPGBQAABEAABA_BgGABAgA0IU3zpTCk4ShWZ2QqQt90qDS-DsJg5KA25hMVIAWgA
+        expiresAt: '2023-05-12T06:12:49.284Z'
+    personalAccessKey: >-
+      CiQ2MzBhMjViMy00MjU4LTRiY2MtYmU1Yi1hZGMyOWEzMzdjMDAQ87z3EhjSrboYKhkABeaRgv9ujpNpH1WkdKvvSN4QqRMEwlbQSgNuYTE
+    sandboxAccountType: null
+    parentAccountId: null

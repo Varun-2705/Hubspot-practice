@@ -1,0 +1,39 @@
+/* @import url('http://example.com/example_style.css'); */
+
+/***********************************************/
+/* CSS @imports must be at the top of the file */
+/* Add them above this section                 */
+/***********************************************/
+
+/*****************************************/
+/* Start your style declarations here    */
+/*****************************************/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.row-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+}
+.row-fluid .span1,.row-fluid .span10,.row-fluid .span11,.row-fluid .span12,.row-fluid .span2,.row-fluid .span3,.row-fluid .span4,.row-fluid .span5,.row-fluid .span6,.row-fluid .span7,.row-fluid .span8,.row-fluid .span9 {
+    min-height: 1px;
+    width: 100%
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
+.wrapper{
+  width: 100%;
+  max-width: 1728px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.flex{
+  display:flex;
+}

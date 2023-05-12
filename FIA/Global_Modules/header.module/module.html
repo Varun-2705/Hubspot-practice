@@ -1,0 +1,23 @@
+<div class="header">
+  <div class="wrapper">
+    <div class="content flex">
+      <div class="logo">
+        {% set loadingAttr = module.logo_field.loading != 'disabled' ? '{{ module.logo_field.loading }}' : '' %}
+        {% logo
+	        override_inherited_src="{{ module.logo_field.override_inherited_src }}"
+	        src="{{ module.logo_field.src }}"
+	        alt="{{ module.logo_field.alt }}"
+	        width="{{ module.logo_field.width }}"
+	        height="{{ module.logo_field.height }}"
+	        loading="{{ loadingAttr }}"
+	        suppress_company_name="{{ module.logo_field.suppress_company_name }}"
+         %}
+      </div>
+      <div>
+        <nav>
+        {% menu id="{{ module.header_menu }}" %}
+        </nav>
+      </div>
+     </div>
+  </div>
+</div>

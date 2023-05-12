@@ -1,0 +1,32 @@
+[ {
+  "id" : "5463f73a-dbab-7ed2-3ae8-1cd9951057ea",
+  "name" : "style",
+  "display_width" : null,
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "22392031-525d-6e3d-698c-291bd8b3a7c8",
+    "name" : "backgroundimage_field",
+    "display_width" : null,
+    "label" : "Background image",
+    "required" : false,
+    "locked" : false,
+    "type" : "backgroundimage",
+    "default" : {
+      "background_position" : "MIDDLE_CENTER",
+      "background_size" : "auto",
+      "src" : "https://cdn2.hubspot.net/hubfs/39706227/banner1.png"
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "backgroundimage_field" : {
+      "background_position" : "MIDDLE_CENTER",
+      "background_size" : "auto",
+      "src" : "https://cdn2.hubspot.net/hubfs/39706227/banner1.png"
+    }
+  }
+} ]
